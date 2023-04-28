@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+body {
+  margin: 2rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: #393e46;
+  color: #ffffff;
+}
+.wrapper1 {
+  display: grid;
+  grid-template-columns: 13rem 25rem;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+h1 {
+  font-family: "Koh Santepheap", cursive;
+  color: #00adb5;
+}
+
+.ava {
+  border-radius: 0.2rem;
+}
+.description {
+  color: #fff;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.emailDisplay {
+  display: none;
+}
+.gitContact,
+.mailContact {
+  display: inline;
+}
+
+.mailContact {
+  margin-left: 1rem;
+}
+.fa-brands,
+.fa-solid {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+a {
+  color: #00adb5;
+  transition: transform 0.2s linear;
+}
+
+a:hover .fa-brands,
+a:hover .fa-solid {
+  transform: scale(1.3);
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+h2 {
+  color: #fff;
+  font-family: "Koh Santepheap", cursive;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.projectPhoto {
+  border-radius: 0.2rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.siteDescription {
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+.projectName {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-family: "Koh Santepheap", cursive;
+}
+
+button {
+  background-color: #00adb5;
+  color: #393e46;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border-style: none;
+  text-transform: uppercase;
+  transition: all 100ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
