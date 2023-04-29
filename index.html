@@ -9,6 +9,17 @@
       src="https://kit.fontawesome.com/90dcb31448.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.onload = function () {
+        let emailDisplay = document.getElementById("emailDisplay");
+        let mailContact = document.getElementById("mailContact");
+        mailContact.addEventListener("click", function (event) {
+          event.preventDefault();
+          emailDisplay.style.display = "block";
+          emailDisplay.style.marginTop = "0.5rem";
+        });
+      };
+    </script>
     <title>Oksy Marty Portfolio</title>
   </head>
   <body>
@@ -39,9 +50,13 @@
               ></a>
             </div>
             <div class="mailContact">
-              <a href="http://"><i class="fa-solid fa-envelope"></i></a>
+              <a href="http://" id="mailContact"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
             </div>
-            <div class="emailDisplay">hrechkasweets@gmail.com</div>
+            <div class="emailDisplay" id="emailDisplay">
+              hrechkasweets@gmail.com
+            </div>
           </div>
         </div>
       </div>
@@ -65,7 +80,11 @@
             My first team project at Chingu planform. I developed pages About
             us, Pizza, Piranha River
           </div>
-          <button onclick="window.open('https://precious-choux-acd566.netlify.app/', '_blank')">Launch</button>
+          <button
+            onclick="window.open('https://precious-choux-acd566.netlify.app/', '_blank')"
+          >
+            Launch
+          </button>
         </div>
         <div class="wrapper2Item2">
           <div class="projectName">Weather App</div>
@@ -80,7 +99,11 @@
             8 days forecast for any city in the world. My first React app worked
             out while studying at SheCodes
           </div>
-          <button>Launch</button>
+          <button
+            onclick="window.open('https://precious-choux-acd566.netlify.app/', '_blank')"
+          >
+            Launch
+          </button>
         </div>
         <div class="wrapper2Item3">
           <div class="projectName">Currency Exchange</div>
@@ -98,7 +121,11 @@
             Valid for EUR, USD, UAH. API of Monobank, Ukraine. Currency rate is
             also available
           </div>
-          <button>Launch</button>
+          <button
+            onclick="window.open('https://iridescent-choux-1b5707.netlify.app/', '_blank')"
+          >
+            Launch
+          </button>
         </div>
         <div class="wrapper2Item4">
           <div class="projectName">Garden design agency</div>
@@ -113,7 +140,11 @@
             Constucted to consolidate knowledge got at the Coursera course "HTML
             and CSS in depth"
           </div>
-          <button>Launch</button>
+          <button
+            onclick="window.open('https://sunny-taiyaki-95c9d7.netlify.app/', '_blank')"
+          >
+            Launch
+          </button>
         </div>
         <div class="wrapper2Item5">
           <div class="projectName">Calculator</div>
@@ -128,7 +159,11 @@
             Simplest calculator Developed at React. It`s my grade assignment at
             Coursera "React Basics"
           </div>
-          <button>Launch</button>
+          <button
+            onclick="window.open('https://deft-chaja-cb170d.netlify.app/', '_blank')"
+          >
+            Launch
+          </button>
         </div>
       </div>
     </div>

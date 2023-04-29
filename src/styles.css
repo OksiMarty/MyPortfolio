@@ -80,6 +80,10 @@ h2 {
   margin: 0 auto;
 }
 
+.projectPhoto:hover {
+  transform: scale(1.2);
+}
+
 .siteDescription {
   color: #fff;
   margin-top: 1rem;
