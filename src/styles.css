@@ -110,6 +110,7 @@ button {
   border-style: none;
   text-transform: uppercase;
   transition: all 100ms ease-in-out;
+  margin-bottom: 2rem;
 }
 
 button:hover {
